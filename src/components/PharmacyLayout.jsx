@@ -117,16 +117,14 @@ const PharmacyLayout = () => {
       title: "Estantería A4-A8",
       sides: {
         right: {
-          entrada: {
-            top: "VITAMINAS Y MINERALES",
-            middle: "SUPLEMENTOS ALIMENTICIOS",
-            bottom: "EQUIPO MÉDICO BÁSICO"
-          },
-          mostrador: {
-            top: "MATERIAL DE CURACIÓN",
-            middle: "PRODUCTOS HIGIÉNICOS",
-            bottom: "AGENTES DE DIAGNÓSTICO"
-          }
+          top: "VITAMINAS Y MINERALES • SUPLEMENTOS ALIMENTICIOS",
+          middle: "MATERIAL DE CURACIÓN Y QUIRÚRGICO • PRODUCTOS HIGIÉNICOS",
+          bottom: "AGENTES DE DIAGNÓSTICO • EQUIPO MÉDICO"
+        },
+        left: {
+          top: "VITAMINAS Y MINERALES • SUPLEMENTOS ALIMENTICIOS",
+          middle: "MATERIAL DE CURACIÓN Y QUIRÚRGICO • PRODUCTOS HIGIÉNICOS",
+          bottom: "AGENTES DE DIAGNÓSTICO • EQUIPO MÉDICO"
         }
       }
     },
@@ -134,28 +132,14 @@ const PharmacyLayout = () => {
       title: "Estantería C4-C12 (Pasillo 1)",
       sides: {
         right: {
-          entrada: {
-            top: "CREMAS CORPORALES Y MANOS",
-            middle: "CREMAS FACIALES",
-            bottom: "BLOQUEADOR BRONCEADOR"
-          },
-          mostrador: {
-            top: "SHAMPOOS",
-            middle: "ACONDICIONADORES",
-            bottom: "TRATAMIENTO CAPILAR"
-          }
+          top: "CREMAS CORPORALES Y MANOS • CREMAS FACIALES • BLOQUEADOR BRONCEADOR",
+          middle: "SHAMPOOS • ACONDICIONADORES • TRATAMIENTO CAPILAR",
+          bottom: "GEL CERAS SILICAS • TINTES RETOCADORES"
         },
         left: {
-          entrada: {
-            top: "GEL CERAS SILICAS",
-            middle: "TINTES PREMIUM",
-            bottom: "PRODUCTOS DESTACADOS"
-          },
-          mostrador: {
-            top: "TINTES BÁSICOS",
-            middle: "RETOCADORES",
-            bottom: "ACCESORIOS CABELLO"
-          }
+          top: "CREMAS CORPORALES Y MANOS • CREMAS FACIALES • BLOQUEADOR BRONCEADOR",
+          middle: "SHAMPOOS • ACONDICIONADORES • TRATAMIENTO CAPILAR",
+          bottom: "GEL CERAS SILICAS • TINTES RETOCADORES"
         }
       }
     },
@@ -163,28 +147,14 @@ const PharmacyLayout = () => {
       title: "Estantería C4-C12 (Pasillo 2)",
       sides: {
         left: {
-          entrada: {
-            top: "DESODORANTES PERFUMES",
-            middle: "CREMAS PARA PEINAR",
-            bottom: "FIJADORES PREMIUM"
-          },
-          mostrador: {
-            top: "JABONES LÍQUIDOS",
-            middle: "JABONES SÓLIDOS",
-            bottom: "JABONES DERMATOLÓGICOS"
-          }
+          top: "DESODORANTES PERFUMES • CREMAS PARA PEINAR • FIJADORES",
+          middle: "JABONES LÍQUIDOS Y SÓLIDOS • JABONES DERMATOLÓGICOS",
+          bottom: "ESPONJAS • PRODUCTOS PARA LIMPIEZA"
         },
         right: {
-          entrada: {
-            top: "ESPONJAS PREMIUM",
-            middle: "ACCESORIOS BAÑO",
-            bottom: "PRODUCTOS ESPECIALES"
-          },
-          mostrador: {
-            top: "ESPONJAS BÁSICAS",
-            middle: "PRODUCTOS LIMPIEZA",
-            bottom: "LIMPIEZA ESPECIAL"
-          }
+          top: "DESODORANTES PERFUMES • CREMAS PARA PEINAR • FIJADORES",
+          middle: "JABONES LÍQUIDOS Y SÓLIDOS • JABONES DERMATOLÓGICOS",
+          bottom: "ESPONJAS • PRODUCTOS PARA LIMPIEZA"
         }
       }
     },
@@ -192,28 +162,14 @@ const PharmacyLayout = () => {
       title: "Estantería E4-E12 (Pasillo 2)",
       sides: {
         left: {
-          entrada: {
-            top: "TOALLAS SANITARIAS PREMIUM",
-            middle: "PANTIPROTECTORES",
-            bottom: "TOALLITAS ÍNTIMAS"
-          },
-          mostrador: {
-            top: "PAPEL HIGIÉNICO",
-            middle: "PAÑUELOS",
-            bottom: "TOALLITAS HÚMEDAS"
-          }
+          top: "TOALLAS SANITARIAS • PANTIPROTECTORES • TOALLITAS ÍNTIMAS",
+          middle: "PAPEL HIGIÉNICO • PAÑUELOS • TOALLITAS HÚMEDAS",
+          bottom: "PAÑALES PARA ADULTO • TOALLAS INCONTINENCIA"
         },
         right: {
-          entrada: {
-            top: "PAÑALES ADULTO PREMIUM",
-            middle: "TOALLAS INCONTINENCIA",
-            bottom: "PRODUCTOS ESPECIALIZADOS"
-          },
-          mostrador: {
-            top: "PAÑALES ADULTO BÁSICOS",
-            middle: "PROTECTORES CAMA",
-            bottom: "ACCESORIOS ADULTO"
-          }
+          top: "TOALLAS SANITARIAS • PANTIPROTECTORES • TOALLITAS ÍNTIMAS",
+          middle: "PAPEL HIGIÉNICO • PAÑUELOS • TOALLITAS HÚMEDAS",
+          bottom: "PAÑALES PARA ADULTO • TOALLAS INCONTINENCIA"
         }
       }
     },
@@ -221,28 +177,14 @@ const PharmacyLayout = () => {
       title: "Estantería E4-E12 (Pasillo 3)",
       sides: {
         left: {
-          entrada: {
-            top: "PAÑALES BEBÉ PREMIUM",
-            middle: "FÓRMULAS ESPECIALES",
-            bottom: "PRODUCTOS IMPORTADOS"
-          },
-          mostrador: {
-            top: "PAÑALES BEBÉ BÁSICOS",
-            middle: "FÓRMULAS BÁSICAS",
-            bottom: "BIBERONES"
-          }
+          top: "PAÑALES BEBÉ • FÓRMULAS",
+          middle: "BIBERONES Y ACCESORIOS • PRODUCTOS BEBÉ",
+          bottom: "TALCOS • CREMAS Y COLONIAS BEBÉ"
         },
         right: {
-          entrada: {
-            top: "ACCESORIOS BEBÉ PREMIUM",
-            middle: "PRODUCTOS BEBÉ ESPECIALES",
-            bottom: "TALCOS IMPORTADOS"
-          },
-          mostrador: {
-            top: "ACCESORIOS BEBÉ BÁSICOS",
-            middle: "CREMAS BEBÉ",
-            bottom: "COLONIAS BEBÉ"
-          }
+          top: "PAÑALES BEBÉ • FÓRMULAS",
+          middle: "BIBERONES Y ACCESORIOS • PRODUCTOS BEBÉ",
+          bottom: "TALCOS • CREMAS Y COLONIAS BEBÉ"
         }
       }
     },
@@ -250,28 +192,14 @@ const PharmacyLayout = () => {
       title: "Estantería G4-G12 (Pasillo 3)",
       sides: {
         left: {
-          entrada: {
-            top: "PASTAS DENTALES PREMIUM",
-            middle: "CEPILLOS ESPECIALES",
-            bottom: "PRODUCTOS IMPORTADOS"
-          },
-          mostrador: {
-            top: "PASTAS DENTALES BÁSICAS",
-            middle: "CEPILLOS BÁSICOS",
-            bottom: "ENJUAGUES BUCALES"
-          }
+          top: "PASTAS DENTALES • CEPILLOS DENTALES",
+          middle: "ENJUAGUES BUCALES • ACCESORIOS DENTALES",
+          bottom: "RASTRILLOS Y NAVAJAS • CREMAS AFEITAR"
         },
         right: {
-          entrada: {
-            top: "ACCESORIOS DENTALES",
-            middle: "PRODUCTOS ESPECIALIZADOS",
-            bottom: "BLANQUEAMIENTO"
-          },
-          mostrador: {
-            top: "RASTRILLOS PREMIUM",
-            middle: "NAVAJAS ESPECIALES",
-            bottom: "CREMAS AFEITAR"
-          }
+          top: "PASTAS DENTALES • CEPILLOS DENTALES",
+          middle: "ENJUAGUES BUCALES • ACCESORIOS DENTALES",
+          bottom: "RASTRILLOS Y NAVAJAS • CREMAS AFEITAR"
         }
       }
     },
@@ -279,28 +207,14 @@ const PharmacyLayout = () => {
       title: "Estantería G4-G12 (Pasillo 4)",
       sides: {
         left: {
-          entrada: {
-            top: "HIDRATANTES PREMIUM",
-            middle: "SUEROS ESPECIALES",
-            bottom: "PRODUCTOS DEPORTIVOS"
-          },
-          mostrador: {
-            top: "HIDRATANTES BÁSICOS",
-            middle: "SUEROS BÁSICOS",
-            bottom: "PRODUCTOS BÁSICOS"
-          }
+          top: "HIDRATANTES • SUEROS",
+          middle: "CARBONATADAS • SABORIZANTES",
+          bottom: "PRODUCTOS FRACCIONADOS • CEREALES"
         },
         right: {
-          entrada: {
-            top: "CARBONATADAS PREMIUM",
-            middle: "SABORIZANTES ESPECIALES",
-            bottom: "BEBIDAS DEPORTIVAS"
-          },
-          mostrador: {
-            top: "CEREALES ESPECIALES",
-            middle: "PRODUCTOS FRACCIONADOS",
-            bottom: "SUPLEMENTOS BÁSICOS"
-          }
+          top: "HIDRATANTES • SUEROS",
+          middle: "CARBONATADAS • SABORIZANTES",
+          bottom: "PRODUCTOS FRACCIONADOS • CEREALES"
         }
       }
     },
@@ -308,28 +222,14 @@ const PharmacyLayout = () => {
       title: "Estantería I4-I12 (Pasillo 4)",
       sides: {
         left: {
-          entrada: {
-            top: "ANTITUSIVOS PREMIUM",
-            middle: "ANTIGRIPALES ESPECIALES",
-            bottom: "DIGESTIVOS PREMIUM"
-          },
-          mostrador: {
-            top: "ANTITUSIVOS BÁSICOS",
-            middle: "ANTIGRIPALES BÁSICOS",
-            bottom: "DIGESTIVOS BÁSICOS"
-          }
+          top: "ANTITUSIVOS • ANTIGRIPALES • DIGESTIVOS",
+          middle: "GOTAS OFTÁLMICAS • FRACCIÓN VI • ANTIMICÓTICOS",
+          bottom: "POLVOS • ACEITES • POMADAS"
         },
         right: {
-          entrada: {
-            top: "GOTAS OFTÁLMICAS PREMIUM",
-            middle: "ANTIMICÓTICOS ESPECIALES",
-            bottom: "FRACCIÓN VI ESPECIAL"
-          },
-          mostrador: {
-            top: "POLVOS MEDICINALES",
-            middle: "ACEITES ESPECIALES",
-            bottom: "POMADAS"
-          }
+          top: "ANTITUSIVOS • ANTIGRIPALES • DIGESTIVOS",
+          middle: "GOTAS OFTÁLMICAS • FRACCIÓN VI • ANTIMICÓTICOS",
+          bottom: "POLVOS • ACEITES • POMADAS"
         }
       }
     },
@@ -337,28 +237,14 @@ const PharmacyLayout = () => {
       title: "Estantería I4-I12 (Pasillo 5)",
       sides: {
         left: {
-          entrada: {
-            top: "REPELENTES PREMIUM",
-            middle: "INSECTICIDAS ESPECIALES",
-            bottom: "PRODUCTOS ESTACIONALES"
-          },
-          mostrador: {
-            top: "REPELENTES BÁSICOS",
-            middle: "INSECTICIDAS BÁSICOS",
-            bottom: "PRODUCTOS REGULARES"
-          }
+          top: "REPELENTES • INSECTICIDAS",
+          middle: "PAPELERÍA • ORTOPEDIA",
+          bottom: "PRODUCTOS DE MENOR ROTACIÓN"
         },
         right: {
-          entrada: {
-            top: "PAPELERÍA PREMIUM",
-            middle: "ORTOPEDIA ESPECIAL",
-            bottom: "PRODUCTOS DESTACADOS"
-          },
-          mostrador: {
-            top: "PAPELERÍA BÁSICA",
-            middle: "ORTOPEDIA BÁSICA",
-            bottom: "PRODUCTOS DE MENOR ROTACIÓN"
-          }
+          top: "REPELENTES • INSECTICIDAS",
+          middle: "PAPELERÍA • ORTOPEDIA",
+          bottom: "PRODUCTOS DE MENOR ROTACIÓN"
         }
       }
     },
@@ -366,16 +252,14 @@ const PharmacyLayout = () => {
       title: "Estantería K3-K16",
       sides: {
         left: {
-          entrada: {
-            top: "MASCARILLAS PREMIUM",
-            middle: "DISPOSITIVOS ESPECIALES",
-            bottom: "PRODUCTOS DESTACADOS"
-          },
-          mostrador: {
-            top: "MASCARILLAS BÁSICAS",
-            middle: "DISPOSITIVOS SEXUALES",
-            bottom: "INSOMNIO Y ESPECIALIDADES"
-          }
+          top: "MASCARILLAS FACIALES",
+          middle: "DISPOSITIVOS SEXUALES",
+          bottom: "INSOMNIO Y ESPECIALIDADES"
+        },
+        right: {
+          top: "MASCARILLAS FACIALES",
+          middle: "DISPOSITIVOS SEXUALES",
+          bottom: "INSOMNIO Y ESPECIALIDADES"
         }
       }
     },
@@ -383,9 +267,14 @@ const PharmacyLayout = () => {
       title: "Estantería Posterior",
       sides: {
         front: {
-          top: "OFERTAS DEL MES • PRODUCTOS DESTACADOS",
-          middle: "PRODUCTOS DE TEMPORADA • NOVEDADES",
-          bottom: "PRODUCTOS CON DESCUENTO • PROMOCIONES"
+          top: "PRODUCTOS DE ALMACENAMIENTO",
+          middle: "PRODUCTOS DE BAJO MOVIMIENTO",
+          bottom: "PRODUCTOS ESTACIONALES"
+        },
+        back: {
+          top: "PRODUCTOS DE ALMACENAMIENTO",
+          middle: "PRODUCTOS DE BAJO MOVIMIENTO",
+          bottom: "PRODUCTOS ESTACIONALES"
         }
       }
     },
@@ -413,7 +302,7 @@ const PharmacyLayout = () => {
         main: "ÁREA DE CIRCULACIÓN ENTRE ESTANTERÍAS"
       }
     }
-};
+  };
 
   const renderCell = (cell) => {
     if (!cell) return <div className="h-12 w-12" />;
